@@ -53,10 +53,10 @@ def detectFacesFromWebcam():
 
 if __name__ == '__main__':
     # Show detection results on static images
-    cv.imshow('output', detectObject('download.jpeg'))
-    cv.waitKey(0)
-    cv.imshow('output', detectObject('oscars.jpg'))
-    cv.waitKey(0)
+    #cv.imshow('output', detectObject('download.jpeg'))
+    #cv.waitKey(0)
+    #cv.imshow('output', detectObject('oscars.jpg'))
+    #cv.waitKey(0)
 
     # Run the webcam face detection
     detectFacesFromWebcam()
